@@ -25,6 +25,9 @@ header {
     justify-content: space-between;
     align-items: center;
 }
+.header-login {
+    background-color: var(--main-green);
+}
 .header__logo {
     width: 200px;
     height: inherit;
