@@ -102,3 +102,58 @@ header {
     color: white;
     font-size: 1.4rem;
 }
+
+/* ---------LOGIN PAGE STYLES------------ */
+
+.login {
+    background: linear-gradient(var(--main-green), var(--purple));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px 0;
+    min-height: calc(100vh - 150px);
+    font-family: 'Sniglet', cursive;
+}
+.login__container {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    padding: 60px 68px 40px;
+    min-height: 700px;
+    width: 20%;
+}
+.login__container--form {
+    display: flex;
+    flex-direction: column;
+}
+.login__container--form label {
+    font-size: 1.4rem;
+}
+.login__container--remember-me {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 1rem;
+}
+.login__container--remember-me a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.login__container--remember-me a:hover {
+    text-decoration: underline;
+}
+.login__container--social-media figure {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    width: 30px;
+    height: 30px;
+}
+.login__container--social-media figure img {
+    width: 100%;
+}
