@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.50%;
+}
+body {
+    background-color: var(--purple);
+    font-family: 'Mulish', sans-serif;
+}
+:root {
+    --main-green: #21C08B;
+    --purple: #8f57fd;
+}
+/* -------- HEADER STYLES --------*/
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: var(--purple);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo {
+    width: 200px;
+    height: inherit;
+    padding: 10px;
+}
+.header__logo img {
+    width: inherit;
+}
+.header__menu {
+    margin-right: 60px;
+}
+.header__menu--profile {
+    display: flex;
+    margin: 8px;
+    width: 60px;
+    font-size: 2rem;
+    align-items: center;
+}
+.header__menu--profile img {
+    margin-right: 8px;
+    width: 40px;
+    height: 40px;
+}
+.header__menu--profile span {
+    color: white;
+}
+.header__menu ul {
+    display: none;
+    list-style: none;
+    position: absolute;
+    width: 100px;
+    text-align: right;
+    margin: 0px 0px 0px 4px;
+}
+.header__menu:hover ul, ul:hover {
+    display: block;
+}
+.header__menu li {
+    margin: 10px 0;  
+}
+.header__menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+}
+.header__menu a:hover {
+    text-decoration: underline;
+}
