@@ -13,6 +13,7 @@ body {
 :root {
     --main-green: #21C08B;
     --purple: #8f57fd;
+    --soft-purple: #AB88FF;
 }
 /* -------- HEADER STYLES --------*/
 
@@ -71,4 +72,30 @@ header {
 }
 .header__menu a:hover {
     text-decoration: underline;
+}
+
+/* ---------SEARCH BAR STYLES------------ */
+
+.main {
+    height: 300px;
+}
+.main__title {
+    color: white;
+    font-size: 2.5rem;
+}
+.main__input {
+    margin-top: 20px;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    font-size: 1.6rem;
+    height: 45px;
+    padding: 0 25px;
+    width: 70%;
+    background-color: var(--soft-purple);
+    outline: none;
+}
+::placeholder {
+    color: white;
+    font-size: 1.4rem;
 }
