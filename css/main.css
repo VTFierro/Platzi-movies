@@ -260,3 +260,29 @@ header {
 .login__container--register-register a:hover {
     text-decoration: underline;
 }
+
+/* ---------404 PAGE STYLES------------ */
+
+.error-404 {
+    height: 80vh;
+    width: 100%;
+    background: linear-gradient(var(--main-green), var(--purple));
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.error-404 h1 {
+    font-size: 8rem;
+}
+@keyframes pulse {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.1);}
+    100% {transform: scale(1);}
+}
+.error-404 h1 {
+    animation-name: pulse;
+    animation-duration: 3s;
+}
