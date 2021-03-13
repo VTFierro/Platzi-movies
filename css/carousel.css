@@ -60,7 +60,8 @@
     color: white;
     font-family: 'Mulish', sans-serif;
     font-size: 0.7rem;
-    line-height: 0px;
+    line-height: 13px;
+    font-size: 1rem;
 }
 .carousel-item__details:hover {
     opacity: 1;
