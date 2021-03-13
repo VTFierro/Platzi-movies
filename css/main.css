@@ -124,10 +124,10 @@ header {
     border-radius: 40px;
     color: white;
     padding: 60px 68px 40px;
-    min-height: 600px;
-    width: 20%;
+    min-height: 680px;
+    width: 22%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-direction: column;
     box-shadow: 0px 8px 11px #474747;
 }
@@ -188,16 +188,17 @@ header {
     border-bottom: 2px solid white;
     border-right: 0px;
     font-family: 'Sniglet', cursive;
+    color: white;
     margin-bottom: 20px;
     padding: 0px 20px;
     outline: none;
-    height: 30px;
+    height: 40px;
 }
 ::placeholder {
     color: white;
 }
 .button {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.3);
     border: none;
     border-radius: 25px;
     color: white;
@@ -209,7 +210,7 @@ header {
     margin: 10px 0;
 }
 .button:hover {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.5);
     transition: 450ms;
 }
 .footer {
@@ -228,5 +229,21 @@ header {
     padding-left: 30px;
 }
 .footer a:hover {
+    text-decoration: underline;
+}
+
+/* ---------LOGIN PAGE STYLES------------ */
+
+.login__container--register-register {
+    text-align: center;
+}
+.login__container--register-register a {
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    margin-left: 5px;
+    text-align: center;
+}
+.login__container--register-register a:hover {
     text-decoration: underline;
 }
